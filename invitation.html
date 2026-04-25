@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lời Mời Tốt Nghiệp - 2026</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;600;700&family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body onload="displayInvitation()">
+    <div id="particles-js"></div>
+
+    <div class="invitation-card shadow-effect">
+        <div class="card-header">
+            <h2 id="welcomeText" class="typing-effect"></h2>
+            <p id="personalGreeting" class="sub-title"></p>
+        </div>
+
+        <div id="imageGallery" class="image-frame">
+            </div>
+        
+        <div class="message-container">
+            <p id="personalMessage"></p>
+        </div>
+
+       <div class="event-details">
+    <div class="detail-item">
+        <strong>📅 Thời gian:</strong> 10:00 AM - 14/05/2026
+    </div>
+    <div class="detail-item">
+        <strong>📍 Địa điểm:</strong> Hội trường FPT Polytechnic
+    </div>
+    
+    <div class="countdown-container">
+        <p style="margin-bottom: 10px; font-weight: 600; color: #f97316;">⏳ Đếm ngược đến ngày nhận bằng:</p>
+        <div id="countdown">
+            <div class="time-box"><span id="days">00</span><small>Ngày</small></div>
+            <div class="time-box"><span id="hours">00</span><small>Giờ</small></div>
+            <div class="time-box"><span id="minutes">00</span><small>Phút</small></div>
+            <div class="time-box"><span id="seconds">00</span><small>Giây</small></div>
+        </div>
+    </div>
+</div>
+
+        <div class="map-wrapper">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3730.354272435337!2d106.6593982!3d10.7984131!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317529d96e56d9bd%3A0x205428f74d7f4ddb!2sThe%20ADORA!5e1!3m2!1sen!2s!4v1777147148856!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <div class="button-group">
+            <button class="btn-secondary" onclick="editInfo()">✍️ Chỉnh sửa</button>
+            <button class="btn-primary" onclick="window.print()">🖨️ Lưu thiệp</button>
+            <button class="btn-danger" onclick="deleteSession()">🚪 Đăng xuất</button>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
