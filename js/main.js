@@ -169,9 +169,20 @@ function displayInvitation() {
         switch (data.role) {
             case 'family':
                 images = [
-                    "images/family.jpg",
-                    "images/family2.jpg",
-                    "images/family3.jpg"
+                    "image/family/z7768225974370_3bd656f78dea06c519e7d4d879983818.jpg",
+                    "image/family/z7768225997191_5587b4f5fee7c8ce7fa559ee69ccf386.jpg",
+                    "image/family/z7768226000584_ae0bcb41feebe63f9a7080a525976790.jpg",
+                    "image/family/z7768226026969_e1f25eedacf5ab708bc51b382631cfb5.jpg",
+                    "image/family/z7768226031894_9619d2233f80dfa47057206cb82384ff.jpg",
+                    "image/family/z7768226054383_0b38b36f4c77cbdd7165809f4764736b.jpg",
+                    "image/family/z7768226069201_febece8abbfb8cbe446cbb8300e7931d.jpg",
+                    "image/family/z7768226072549_c54be23caacfbe756da1186525595407.jpg",
+                    "image/family/z7768226078018_2ecbfd512740a7ba745117457ba51ea6.jpg",
+                    "image/family/z7768226090353_031112d06dec988fd51b2ebfceb5b464.jpg",
+                    "image/family/z7768226095824_9732d46840e0d7a40b3e993236e49961.jpg",
+                    "image/family/z7768226099947_6185e8c9f42bc6c70a64a9c4710299a7.jpg",
+                    "image/family/z7768226109364_9acd219207d004f1260605e9429558dd.jpg",
+                    "image/family/z7768226109611_fee3029e65494d029e70c0ff2ce91e9e.jpg"
                 ];
                 break;
             case 'lover':
